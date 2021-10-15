@@ -67,6 +67,7 @@ body {
   padding: 50px;
   overflow-x: hidden;
   background-color: #fafaff;
+  // position: relative;
 
   .about-section {
     //   background-color: #000;
@@ -521,6 +522,42 @@ footer {
       }
     }
   }
+  .shape1 {
+    display: none;
+    left: 1500px;
+    top: 1500px;
+    animation: float 2s ease-in-out infinite;
+  }
+  .shape2 {
+    display: none;
+    left: 250px;
+    // top: 1500px;
+    animation: float 3s ease-in-out infinite;
+  }
+  .shape3 {
+    display: none;
+    left: 1400px;
+    top: 3100px;
+    animation: float 2s ease-in-out infinite;
+  }
+  .shape4 {
+    display: none;
+    left: 300px;
+    top: 3500px;
+    animation: float 3s ease-in-out infinite;
+  }
+  .shape5 {
+    display: none;
+    left: 1650px;
+    top: 4000px;
+    animation: float 2s ease-in-out infinite;
+  }
+  .shape6 {
+    display: none;
+    left: 500px;
+    top: 4325px;
+    animation: float 3s ease-in-out infinite;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -736,6 +773,42 @@ footer {
         }
       }
     }
+  }
+  .shape1 {
+    display: none;
+    left: 1500px;
+    top: 1500px;
+    animation: float 2s ease-in-out infinite;
+  }
+  .shape2 {
+    display: none;
+    left: 250px;
+    // top: 1500px;
+    animation: float 3s ease-in-out infinite;
+  }
+  .shape3 {
+    display: none;
+    left: 1400px;
+    top: 3100px;
+    animation: float 2s ease-in-out infinite;
+  }
+  .shape4 {
+    display: none;
+    left: 300px;
+    top: 3500px;
+    animation: float 3s ease-in-out infinite;
+  }
+  .shape5 {
+    display: none;
+    left: 1650px;
+    top: 4000px;
+    animation: float 2s ease-in-out infinite;
+  }
+  .shape6 {
+    display: none;
+    left: 500px;
+    top: 4325px;
+    animation: float 3s ease-in-out infinite;
   }
   footer {
     margin-top: 200px;

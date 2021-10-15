@@ -544,6 +544,47 @@ footer .cpyright h1 {
   .certificate-section .row .col-3 img {
     width: 100%;
   }
+  .shape1 {
+    display: none;
+    left: 1500px;
+    top: 1500px;
+    -webkit-animation: float 2s ease-in-out infinite;
+            animation: float 2s ease-in-out infinite;
+  }
+  .shape2 {
+    display: none;
+    left: 250px;
+    -webkit-animation: float 3s ease-in-out infinite;
+            animation: float 3s ease-in-out infinite;
+  }
+  .shape3 {
+    display: none;
+    left: 1400px;
+    top: 3100px;
+    -webkit-animation: float 2s ease-in-out infinite;
+            animation: float 2s ease-in-out infinite;
+  }
+  .shape4 {
+    display: none;
+    left: 300px;
+    top: 3500px;
+    -webkit-animation: float 3s ease-in-out infinite;
+            animation: float 3s ease-in-out infinite;
+  }
+  .shape5 {
+    display: none;
+    left: 1650px;
+    top: 4000px;
+    -webkit-animation: float 2s ease-in-out infinite;
+            animation: float 2s ease-in-out infinite;
+  }
+  .shape6 {
+    display: none;
+    left: 500px;
+    top: 4325px;
+    -webkit-animation: float 3s ease-in-out infinite;
+            animation: float 3s ease-in-out infinite;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -733,6 +774,47 @@ footer .cpyright h1 {
   .certificate-section .row .col-3 img {
     width: 125%;
     max-width: 250px;
+  }
+  .shape1 {
+    display: none;
+    left: 1500px;
+    top: 1500px;
+    -webkit-animation: float 2s ease-in-out infinite;
+            animation: float 2s ease-in-out infinite;
+  }
+  .shape2 {
+    display: none;
+    left: 250px;
+    -webkit-animation: float 3s ease-in-out infinite;
+            animation: float 3s ease-in-out infinite;
+  }
+  .shape3 {
+    display: none;
+    left: 1400px;
+    top: 3100px;
+    -webkit-animation: float 2s ease-in-out infinite;
+            animation: float 2s ease-in-out infinite;
+  }
+  .shape4 {
+    display: none;
+    left: 300px;
+    top: 3500px;
+    -webkit-animation: float 3s ease-in-out infinite;
+            animation: float 3s ease-in-out infinite;
+  }
+  .shape5 {
+    display: none;
+    left: 1650px;
+    top: 4000px;
+    -webkit-animation: float 2s ease-in-out infinite;
+            animation: float 2s ease-in-out infinite;
+  }
+  .shape6 {
+    display: none;
+    left: 500px;
+    top: 4325px;
+    -webkit-animation: float 3s ease-in-out infinite;
+            animation: float 3s ease-in-out infinite;
   }
   footer {
     margin-top: 200px;
