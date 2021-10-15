@@ -1,0 +1,775 @@
+body {
+  background-color: #314455;
+  // background-color: #000;
+  margin: 0;
+  width: 100%;
+}
+
+// Navbar Section
+.navbar {
+  .nav-item {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #fff;
+  }
+}
+
+// header
+.heading {
+  padding: 220px 400px 200px;
+  margin-top: -70px;
+  background-image: url("../images/Sekolah.jpg");
+  background-size: cover;
+  z-index: 1;
+  .greeting {
+    padding-top: 200px;
+  }
+  .header-title {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #fff;
+  }
+  .header-body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #fff;
+  }
+  .btn {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #fff;
+    border-radius: 8px;
+  }
+  .btn-profil {
+    background-color: #c96567;
+    color: #f4f2f3;
+  }
+  .imek {
+    max-width: 100%;
+  }
+}
+
+.divider1 {
+  background-color: #fafaff;
+  img {
+    width: 100%;
+  }
+}
+.white-section {
+  padding: 50px;
+  overflow-x: hidden;
+  background-color: #fafaff;
+
+  .about-section {
+    //   background-color: #000;
+    margin-top: 150px;
+    margin-bottom: 200px;
+
+    .about-txt {
+      padding-top: 100px;
+      .about-title {
+        font-family: "Inter", sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 150%;
+        color: #314455;
+      }
+      .about-body {
+        padding-right: 14px;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 150%;
+        color: #314455;
+      }
+    }
+  }
+}
+
+.skill-section {
+  margin-top: 100px;
+  margin-bottom: 200px;
+  padding-top: 100px;
+  padding-left: 50px;
+  .skill-title {
+    padding-left: 290px;
+    margin-bottom: 50px;
+    .stitle {
+      font-family: "Inter", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 150%;
+      color: #314455;
+    }
+  }
+
+  .row {
+    .col-12 {
+      .progress {
+        height: 30px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+      }
+      .skill-name {
+        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 150%;
+        color: #314455;
+      }
+    }
+  }
+
+  .progress .progress-bar {
+    animation: animate-positive 2s;
+  }
+}
+
+.experience-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  .exp-title {
+    padding-left: 335px;
+    margin-bottom: 100px;
+    h1 {
+      font-family: "Inter", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 150%;
+      color: #314455;
+    }
+  }
+  .col-lg-5 {
+    padding-left: 50px;
+  }
+  .col-12 {
+    margin-top: -100px;
+    .exp-image {
+      width: 100%;
+    }
+    .exp-text {
+      padding-top: 150px;
+      h1 {
+        font-family: "Inter", sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 150%;
+        color: #314455;
+      }
+      h3 {
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%;
+        color: #314455;
+      }
+      h5 {
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        color: #314455;
+      }
+    }
+  }
+}
+.divider2 {
+  background-color: #fafaff;
+  img {
+    width: 100%;
+  }
+}
+
+.certificate-section {
+  .cert-title {
+    padding-left: 380px;
+    margin-bottom: 50px;
+    h1 {
+      font-family: "Inter", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 150%;
+      color: #fff;
+    }
+  }
+  .row {
+    margin-bottom: 20px;
+    .col-12 {
+      img {
+        width: 100%;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.shape1 {
+  left: 1500px;
+  top: 1500px;
+  animation: float 2s ease-in-out infinite;
+}
+.shape2 {
+  left: 250px;
+  // top: 1500px;
+  animation: float 3s ease-in-out infinite;
+}
+.shape3 {
+  left: 1400px;
+  top: 3100px;
+  animation: float 2s ease-in-out infinite;
+}
+.shape4 {
+  left: 300px;
+  top: 3500px;
+  animation: float 3s ease-in-out infinite;
+}
+.shape5 {
+  left: 1650px;
+  top: 4000px;
+  animation: float 2s ease-in-out infinite;
+}
+.shape6 {
+  left: 500px;
+  top: 4325px;
+  animation: float 3s ease-in-out infinite;
+}
+
+#gallery-modal .modal-img {
+  width: 100%;
+}
+
+footer {
+  margin-top: 200px;
+  .gitouch {
+    h1 {
+      font-family: "Inter", sans-serif;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 150%;
+      color: #fff;
+    }
+    h5 {
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      color: #fff;
+    }
+  }
+  .row {
+    margin: 20px;
+    .col-lg-1 {
+      justify-content: center;
+      align-items: center;
+      padding-left: 50px;
+    }
+  }
+  .cpyright {
+    margin-bottom: 20px;
+    h1 {
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 150%;
+      color: #fff;
+    }
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes animate-positive {
+  0% {
+    width: 0px;
+  }
+}
+@keyframes animate-positive {
+  0% {
+    width: 0px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  body {
+    background-color: #314455;
+    // background-color: #000;
+    margin: 0;
+  }
+
+  // Navbar Section
+  .navbar {
+    .nav-item {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 150%;
+      color: #fff;
+    }
+  }
+
+  // header
+  .heading {
+    padding: 140px 140px 40px;
+    margin-top: -70px;
+    background-image: url("../images/Sekolah.jpg");
+    background-size: cover;
+    z-index: 1;
+    .greeting {
+      padding-top: 200px;
+    }
+    .header-title {
+      font-family: "Inter", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 150%;
+      color: #fff;
+    }
+    .header-body {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 150%;
+      color: #fff;
+    }
+    .btn {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 150%;
+      color: #fff;
+      border-radius: 8px;
+    }
+    .btn-profil {
+      background-color: #c96567;
+      color: #f4f2f3;
+    }
+    .imek {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      img {
+        max-width: 600px;
+        width: 100%;
+      }
+    }
+  }
+
+  .divider1 {
+    background-color: #fafaff;
+    img {
+      width: 100%;
+    }
+  }
+  .white-section {
+    padding: 50px;
+    background-color: #fafaff;
+
+    .about-section {
+      //   background-color: #000;
+      margin-top: 50px;
+      margin-bottom: 200px;
+
+      .about-img {
+        img {
+          max-width: 300px;
+          width: 100%;
+        }
+      }
+      .about-txt {
+        padding-top: 100px;
+        .about-title {
+          font-family: "Inter", sans-serif;
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 150%;
+          color: #314455;
+        }
+        .about-body {
+          padding-right: 14px;
+          font-family: "Inter", sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 150%;
+          color: #314455;
+        }
+      }
+    }
+  }
+  .skill-section {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    padding-top: 100px;
+    padding-left: 50px;
+    .skill-title {
+      padding-left: 180px;
+      margin-bottom: 50px;
+      .stitle {
+        font-family: "Inter", sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 150%;
+        color: #314455;
+      }
+    }
+
+    .row {
+      .col-12 {
+        .progress {
+          height: 30px;
+          border-radius: 8px;
+          margin-bottom: 30px;
+        }
+        .skill-name {
+          font-family: "Inter", sans-serif;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 150%;
+          color: #314455;
+        }
+      }
+    }
+
+    .progress .progress-bar {
+      animation: animate-positive 2s;
+    }
+  }
+
+  .experience-section {
+    .exp-title {
+      padding-left: 200px;
+      margin-bottom: 100px;
+      h1 {
+        font-family: "Inter", sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 150%;
+        color: #314455;
+      }
+    }
+    .col-lg-5 {
+      padding-left: 50px;
+    }
+    .col-12 {
+      margin-top: 0px;
+      .exp-image {
+        img {
+          width: 100%;
+        }
+      }
+      .exp-text {
+        padding-top: 50px;
+        h1 {
+          font-family: "Inter", sans-serif;
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 150%;
+          color: #314455;
+        }
+        h3 {
+          font-family: "Inter", sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 150%;
+          color: #314455;
+        }
+        h5 {
+          font-family: "Inter", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 150%;
+          color: #314455;
+        }
+      }
+    }
+  }
+  .certificate-section {
+    .cert-title {
+      padding-left: 250px;
+      margin-bottom: 50px;
+      h1 {
+        font-family: "Inter", sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 150%;
+        color: #fff;
+      }
+    }
+    .row {
+      margin-bottom: 20px;
+      .col-3 {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #314455;
+    // background-color: #000;
+    margin: 0;
+  }
+
+  // Navbar Section
+  .navbar {
+    .nav-item {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 150%;
+      color: #fff;
+    }
+  }
+
+  // header
+  .heading {
+    padding: 20px 40px 20px;
+    margin-top: -70px;
+    background-image: url("../images/Sekolah.jpg");
+    background-size: cover;
+    z-index: 1;
+    .greeting {
+      padding-top: 200px;
+    }
+    .header-title {
+      font-family: "Inter", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 150%;
+      color: #fff;
+    }
+    .header-body {
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 150%;
+      color: #fff;
+    }
+    .btn {
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 150%;
+      color: #fff;
+      border-radius: 8px;
+    }
+    .btn-profil {
+      background-color: #c96567;
+      color: #f4f2f3;
+    }
+    .imek {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      img {
+        max-width: 600px;
+        width: 100%;
+      }
+    }
+  }
+
+  .divider1 {
+    background-color: #fafaff;
+    img {
+      width: 100%;
+    }
+  }
+  .white-section {
+    padding: 50px;
+    background-color: #fafaff;
+
+    .about-section {
+      //   background-color: #000;
+      margin-top: 150px;
+      margin-bottom: 200px;
+
+      .about-img {
+        img {
+          max-width: 150px;
+          width: 100%;
+        }
+      }
+      .about-txt {
+        padding-top: 10px;
+        .about-title {
+          font-family: "Inter", sans-serif;
+          font-size: 36px;
+          font-weight: 700;
+          line-height: 150%;
+          color: #314455;
+        }
+        .about-body {
+          padding-right: 14px;
+          font-family: "Inter", sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 150%;
+          color: #314455;
+        }
+      }
+    }
+  }
+  .skill-section {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    padding-top: 100px;
+    padding-left: 10px;
+    .skill-title {
+      padding-left: 0px;
+      margin-bottom: 30px;
+      .stitle {
+        font-family: "Inter", sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 150%;
+        color: #314455;
+      }
+    }
+
+    .row {
+      .col-12 {
+        .progress {
+          height: 20px;
+          border-radius: 8px;
+          margin-bottom: 20px;
+        }
+        .skill-name {
+          font-family: "Inter", sans-serif;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 150%;
+          color: #314455;
+        }
+      }
+    }
+
+    .progress .progress-bar {
+      animation: animate-positive 2s;
+    }
+  }
+  .experience-section {
+    .exp-title {
+      padding-left: 0px;
+      margin-bottom: 10px;
+      h1 {
+        font-family: "Inter", sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 150%;
+        color: #314455;
+      }
+    }
+    .col-lg-5 {
+      padding-left: 20px;
+    }
+    .col-12 {
+      margin-top: 0px;
+      .exp-image {
+        img {
+          width: 100%;
+        }
+      }
+      .exp-text {
+        padding-top: 20px;
+        h1 {
+          font-family: "Inter", sans-serif;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 150%;
+          color: #314455;
+        }
+        h3 {
+          font-family: "Inter", sans-serif;
+          font-size: 10px;
+          font-weight: 400;
+          line-height: 150%;
+          color: #314455;
+        }
+        h5 {
+          font-family: "Inter", sans-serif;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 150%;
+          color: #314455;
+        }
+      }
+    }
+  }
+  .certificate-section {
+    .cert-title {
+      padding-left: 60px;
+      margin-bottom: 50px;
+      h1 {
+        font-family: "Inter", sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 150%;
+        color: #fff;
+      }
+    }
+    .row {
+      margin-bottom: 8px;
+      margin-left: 0px;
+      .col-3 {
+        img {
+          width: 125%;
+          max-width: 250px;
+        }
+      }
+    }
+  }
+  footer {
+    margin-top: 200px;
+    .gitouch {
+      h1 {
+        font-family: "Inter", sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 150%;
+        color: #fff;
+      }
+      h5 {
+        font-family: "Inter", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 150%;
+        color: #fff;
+      }
+    }
+    .row {
+      margin: 20px;
+      .col-2 {
+        padding-left: 10px;
+      }
+    }
+    .cpyright {
+      margin-bottom: 20px;
+      h1 {
+        font-family: "Inter", sans-serif;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 150%;
+        color: #fff;
+      }
+    }
+  }
+}
