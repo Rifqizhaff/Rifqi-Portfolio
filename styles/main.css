@@ -220,7 +220,7 @@ body {
   margin-bottom: 20px;
 }
 
-.certificate-section .row .col-12 img {
+.certificate-section .row .col-3 img {
   width: 100%;
   cursor: pointer;
 }
@@ -362,6 +362,99 @@ footer .cpyright h1 {
 @keyframes animate-positive {
   0% {
     width: 0px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .experience-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .experience-section .exp-title {
+    padding-left: 335px;
+    margin-bottom: 100px;
+  }
+  .experience-section .exp-title h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #314455;
+  }
+  .experience-section .col-lg-5 {
+    padding-left: 50px;
+  }
+  .experience-section .col-12 {
+    margin-top: -100px;
+  }
+  .experience-section .col-12 .exp-image {
+    width: 100%;
+  }
+  .experience-section .col-12 .exp-text {
+    padding-top: 150px;
+    padding-left: 80px;
+  }
+  .experience-section .col-12 .exp-text h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #314455;
+  }
+  .experience-section .col-12 .exp-text h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #314455;
+  }
+  .experience-section .col-12 .exp-text h5 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #314455;
+  }
+  .shape1 {
+    display: none;
+    left: 1500px;
+    top: 1500px;
+    -webkit-animation: float 2s ease-in-out infinite;
+            animation: float 2s ease-in-out infinite;
+  }
+  .shape2 {
+    display: none;
+    left: 250px;
+    -webkit-animation: float 3s ease-in-out infinite;
+            animation: float 3s ease-in-out infinite;
+  }
+  .shape3 {
+    display: none;
+    left: 1400px;
+    top: 3100px;
+    -webkit-animation: float 2s ease-in-out infinite;
+            animation: float 2s ease-in-out infinite;
+  }
+  .shape4 {
+    display: none;
+    left: 300px;
+    top: 3500px;
+    -webkit-animation: float 3s ease-in-out infinite;
+            animation: float 3s ease-in-out infinite;
+  }
+  .shape5 {
+    display: none;
+    left: 1650px;
+    top: 4000px;
+    -webkit-animation: float 2s ease-in-out infinite;
+            animation: float 2s ease-in-out infinite;
+  }
+  .shape6 {
+    display: none;
+    left: 500px;
+    top: 4325px;
+    -webkit-animation: float 3s ease-in-out infinite;
+            animation: float 3s ease-in-out infinite;
   }
 }
 
