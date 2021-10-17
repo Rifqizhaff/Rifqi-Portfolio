@@ -234,7 +234,7 @@ body {
   animation: float 3s ease-in-out infinite;
 }
 .shape5 {
-  left: 1650px;
+  left: 1550px;
   top: 4000px;
   animation: float 2s ease-in-out infinite;
 }
@@ -274,7 +274,6 @@ footer {
       padding-left: 50px;
       img {
         width: 100%;
-        height: 100%;
         max-width: 40px;
         max-height: 40px;
       }
@@ -316,6 +315,50 @@ footer {
 }
 
 @media screen and (max-width: 1440px) {
+  .heading {
+    padding: 140px 240px 40px;
+    margin-top: -70px;
+    background-image: url("../images/Sekolah.jpg");
+    background-size: cover;
+    z-index: 1;
+    .greeting {
+      padding-top: 200px;
+    }
+    .header-title {
+      font-family: "Inter", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 150%;
+      color: #fff;
+    }
+    .header-body {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 150%;
+      color: #fff;
+    }
+    .btn {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 150%;
+      color: #fff;
+      border-radius: 8px;
+    }
+    .btn-profil {
+      background-color: #c96567;
+      color: #f4f2f3;
+    }
+    .imek {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      img {
+        max-width: 600px;
+        width: 100%;
+      }
+    }
+  }
   .experience-section {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -561,6 +604,257 @@ footer {
       }
     }
     .col-lg-5 {
+      padding-left: 30px;
+    }
+    .col-12 {
+      margin-top: 0px;
+      .exp-image {
+        img {
+          width: 100%;
+        }
+      }
+      .exp-text {
+        padding-top: 50px;
+        padding-left: 20px;
+        h1 {
+          font-family: "Inter", sans-serif;
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 150%;
+          color: #314455;
+        }
+        h3 {
+          font-family: "Inter", sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 150%;
+          color: #314455;
+        }
+        h5 {
+          font-family: "Inter", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 150%;
+          color: #314455;
+        }
+      }
+    }
+  }
+  .certificate-section {
+    .cert-title {
+      padding-left: 250px;
+      margin-bottom: 50px;
+      h1 {
+        font-family: "Inter", sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 150%;
+        color: #fff;
+      }
+    }
+    .row {
+      margin-bottom: 20px;
+      .col-3 {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .shape1 {
+    display: none;
+    left: 1500px;
+    top: 1500px;
+    animation: float 2s ease-in-out infinite;
+  }
+  .shape2 {
+    display: none;
+    left: 250px;
+    // top: 1500px;
+    animation: float 3s ease-in-out infinite;
+  }
+  .shape3 {
+    display: none;
+    left: 1400px;
+    top: 3100px;
+    animation: float 2s ease-in-out infinite;
+  }
+  .shape4 {
+    display: none;
+    left: 300px;
+    top: 3500px;
+    animation: float 3s ease-in-out infinite;
+  }
+  .shape5 {
+    display: none;
+    left: 1650px;
+    top: 4000px;
+    animation: float 2s ease-in-out infinite;
+  }
+  .shape6 {
+    display: none;
+    left: 500px;
+    top: 4325px;
+    animation: float 3s ease-in-out infinite;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: #314455;
+    // background-color: #000;
+    margin: 0;
+  }
+
+  // Navbar Section
+  .navbar {
+    .nav-item {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 150%;
+      color: #fff;
+    }
+  }
+
+  // header
+  .heading {
+    padding: 140px 140px 40px;
+    margin-top: -70px;
+    background-image: url("../images/Sekolah.jpg");
+    background-size: cover;
+    z-index: 1;
+    .greeting {
+      padding-top: 100px;
+    }
+    .header-title {
+      font-family: "Inter", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 150%;
+      color: #fff;
+    }
+    .header-body {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 150%;
+      color: #fff;
+    }
+    .btn {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 150%;
+      color: #fff;
+      border-radius: 8px;
+    }
+    .btn-profil {
+      background-color: #c96567;
+      color: #f4f2f3;
+    }
+    .imek {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      img {
+        max-width: 600px;
+        width: 100%;
+      }
+    }
+  }
+
+  .divider1 {
+    background-color: #fafaff;
+    img {
+      width: 100%;
+    }
+  }
+  .white-section {
+    padding: 50px;
+    background-color: #fafaff;
+
+    .about-section {
+      //   background-color: #000;
+      margin-top: 50px;
+      margin-bottom: 200px;
+
+      .about-img {
+        img {
+          max-width: 300px;
+          width: 100%;
+        }
+      }
+      .about-txt {
+        padding-top: 100px;
+        .about-title {
+          font-family: "Inter", sans-serif;
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 150%;
+          color: #314455;
+        }
+        .about-body {
+          padding-right: 14px;
+          font-family: "Inter", sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 150%;
+          color: #314455;
+        }
+      }
+    }
+  }
+  .skill-section {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    padding-top: 100px;
+    padding-left: 50px;
+    .skill-title {
+      padding-left: 180px;
+      margin-bottom: 50px;
+      .stitle {
+        font-family: "Inter", sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 150%;
+        color: #314455;
+      }
+    }
+
+    .row {
+      .col-12 {
+        .progress {
+          height: 30px;
+          border-radius: 8px;
+          margin-bottom: 30px;
+        }
+        .skill-name {
+          font-family: "Inter", sans-serif;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 150%;
+          color: #314455;
+        }
+      }
+    }
+
+    .progress .progress-bar {
+      animation: animate-positive 2s;
+    }
+  }
+
+  .experience-section {
+    .exp-title {
+      padding-left: 200px;
+      margin-bottom: 100px;
+      h1 {
+        font-family: "Inter", sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 150%;
+        color: #314455;
+      }
+    }
+    .col-lg-5 {
       padding-left: 50px;
     }
     .col-12 {
@@ -652,6 +946,41 @@ footer {
     left: 500px;
     top: 4325px;
     animation: float 3s ease-in-out infinite;
+  }
+  footer {
+    margin-top: 200px;
+    .gitouch {
+      h1 {
+        font-family: "Inter", sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 150%;
+        color: #fff;
+      }
+      h5 {
+        font-family: "Inter", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 150%;
+        color: #fff;
+      }
+    }
+    .row {
+      margin: 20px;
+      .col-2 {
+        padding-left: 10px;
+      }
+    }
+    .cpyright {
+      margin-bottom: 20px;
+      h1 {
+        font-family: "Inter", sans-serif;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 150%;
+        color: #fff;
+      }
+    }
   }
 }
 
@@ -815,7 +1144,7 @@ footer {
       }
     }
     .col-lg-5 {
-      padding-left: 20px;
+      padding-left: 0px;
     }
     .col-12 {
       margin-top: 0px;
