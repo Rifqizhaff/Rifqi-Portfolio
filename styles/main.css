@@ -413,6 +413,9 @@ footer .cpyright h1 {
     margin-top: 100px;
     margin-bottom: 100px;
   }
+  .experience-section .row {
+    margin-bottom: 50px;
+  }
   .experience-section .exp-title {
     padding-left: 335px;
     margin-bottom: 100px;
